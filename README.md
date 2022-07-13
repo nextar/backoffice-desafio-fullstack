@@ -32,25 +32,27 @@ O desafio consiste em criar um client e uma API, que responde as funcionalidades
 ### Stack
 
 - Client 
-	- [Vue.js](https://vuejs.org/)
-	- [Tailwind CSS](https://tailwindcss.com/) (ou [Bootstrap](https://getbootstrap.com/))
+	- [Vue.js](https://vuejs.org/) ou [React](https://pt-br.reactjs.org/)
+	- [Tailwind CSS](https://tailwindcss.com/) ou [Bootstrap](https://getbootstrap.com/)
 - API	
-	- Node.js com [Express](https://expressjs.com/pt-br/) (ou [Koa](https://koajs.com/), [Fastify](https://www.fastify.io/))
+	- Typescript com [NestJS](https://nestjs.com)
 	- MongoDB ou MySQL
 - Autenticação 
 	- [JWT](http://jwt.io/)
 
-
 [Bônus] Publicar seu projeto em algum cloud provider (Amazon, Azure, Heroku, Google Cloud,etc)
 
-Orientações Gerais:
+### Orientações Gerais:
+
 - Procure usar nomes de variáveis e funções em inglês.
 - Você não será avaliado pela UX/UI da aplicação, por isso não desprenda muito tempo nessa parte e opte por seguir alguma referência ou interface já existentes.
 - A referência de análise principal é na utilização de boas práticas, qualidade e arquitetura do seu código;
 - Ao finalizar, realize commit do seu código e nos envie o link do repositório;
 - Adicione todas as instruções para executar seu projeto localmente em um readme.md
 
-*ENTREGA: 10 DIAS CORRIDOS A PARTIR DA DISPONIBILIZAÇÃO DESTE TESTE*
+### Entrega
+
+**10 dias corridos a partir da disponibilizção deste teste**
 
 Sabemos que os desafios techs levam um determinado tempo de dedicação, por isso, caso necessite de mais tempo, não se preocupe, é só entrar em contato conosco que flexibilizamos o prazo, combinado?! 
 
