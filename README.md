@@ -19,12 +19,13 @@ O desafio consiste em criar um client e uma API, que responde as funcionalidades
 	- O usuário **padrão** poderá apenas consultar informações e editar seu próprio perfil
 	- O usuário **admin** poderá consultar informações e cadastrar/editar todos usuários
 
+#### Sugestão de estrutura de dados
 ```json
 {
   "name": "Nome Sobrenome",
-  "password": "{hash}",
+  "password": "{hash}", 
   "email": "nome.sobrenome@email.com",
-  "permission": "admin || standard",
+  "permission": "[admin|standard]", // enum
   "phone": "011955551234" 
 }
 ```
@@ -33,10 +34,11 @@ O desafio consiste em criar um client e uma API, que responde as funcionalidades
 
 - Client 
 	- [Vue.js](https://vuejs.org/) ou [React](https://pt-br.reactjs.org/)
+	- [NuxtJS](https://nuxtjs.org/pt/) ou [Next.js](https://nextjs.org/) *opcional 
 	- [Tailwind CSS](https://tailwindcss.com/) ou [Bootstrap](https://getbootstrap.com/)
 - API	
 	- Typescript com [NestJS](https://nestjs.com)
-	- MongoDB ou MySQL
+	- MongoDB, MySQL ou PostgreSQL
 - Autenticação 
 	- [JWT](http://jwt.io/)
 
@@ -48,7 +50,7 @@ O desafio consiste em criar um client e uma API, que responde as funcionalidades
 - Você não será avaliado pela UX/UI da aplicação, por isso não desprenda muito tempo nessa parte e opte por seguir alguma referência ou interface já existentes.
 - A referência de análise principal é na utilização de boas práticas, qualidade e arquitetura do seu código;
 - Ao finalizar, realize commit do seu código e nos envie o link do repositório;
-- Adicione todas as instruções para executar seu projeto localmente em um readme.md
+- Adicione todas as instruções para executar seu projeto localmente em um README.md
 
 ### Entrega
 
